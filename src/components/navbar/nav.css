@@ -1,3 +1,13 @@
+.transparent-navbar {
+    background-color: rgba(255, 192, 203, 0); /* Transparent pink background */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.transparent-navbar.scrolled {
+    background-color: #fffeff !important; /* Shiny pink background */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Box shadow */
+}
+
 .social-spacing{
     padding-right: 20px;
     width: 40px;
@@ -17,6 +27,11 @@ a.nav-link:hover {
   color: #ffffff;
   border-radius: 10px;
 }
+a.dropdown-item{
+    color: black;
+    font-family: Lora;
+    font-weight: 600;
+}
 a.dropdown-item:active {
   background-color: #B92964;
   color: #ffffff;
@@ -24,4 +39,19 @@ a.dropdown-item:active {
 a.dropdown-item:hover {
   background-color: #B92964;
   color: #ffffff;
+}
+a.nav-link.dropdown-toggle:active {
+  background-color: #B92964;
+  color: #ffffff;
+}
+a.nav-link.dropdown-toggle:hover {
+  background-color: #B92964;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 767px) {
+  .collapse.navbar-collapse{
+    background-color: #ffffff;
+    padding: 20px;
+  }
 }

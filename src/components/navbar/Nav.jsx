@@ -1,6 +1,6 @@
 import React from 'react'
 import './nav.css'
-import pinkotabLogo from "../../assets/pinkotab-png-2.png";
+import FaithLogo from "../../assets/Faith-Alugbue-Logo.png";
 import facebook from "../../assets/facebook.png";
 import instagram from "../../assets/instagram.png";
 import x from "../../assets/x.webp";
@@ -10,14 +10,10 @@ import git from "../../assets/git.png";
 function Nav() {
   return (
     <>
-      <nav className="navbar navbar-expand-lg bg-body-tertiary">
+      <nav className="navbar navbar-expand-lg nav-style bg-transparent transparent-navbar fixed-top">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
-            <img
-              src={pinkotabLogo}
-              alt="pinkotab-technologies-logo"
-              width={80}
-            />
+            <img src={FaithLogo} alt="Faith-Alugbue-logo" width={150} />
           </a>
           <button
             className="navbar-toggler"
@@ -92,7 +88,10 @@ function Nav() {
                 <img className="social-spacing" src={x} alt="twitter" />
               </a>
               <a href="http://instagram.com/faithalugbue">
-                <img className="social-spacing" src={instagram} alt="instagram"
+                <img
+                  className="social-spacing"
+                  src={instagram}
+                  alt="instagram"
                 />
               </a>
             </div>

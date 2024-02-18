@@ -7,6 +7,7 @@
     <title>Vite + React</title>
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:wght@900&family=Playfair+Display:wght@900&family=Yeseva+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Be+Vietnam:ital,wght@0,400;0,700;1,400;1,700&family=Karla:ital,wght@0,400;0,700;1,400;1,700&family=Lato:ital,wght@0,400;0,700;1,400;1,700&family=Lora:ital,wght@0,400;0,700;1,400;1,700&family=Nunito:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Overpass:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,400;0,700;1,400;1,700&family=Public+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Spectral:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 
 
   </head>
@@ -14,5 +15,13 @@
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+    // Add a class to the navbar when scrolling
+    document.addEventListener('scroll', function() {
+        var navbar = document.querySelector('.transparent-navbar');
+        var scrolled = window.scrollY > 10; // Adjust the value based on when you want the effect to trigger
+        navbar.classList.toggle('scrolled', scrolled);
+    });
+    </script>
   </body>
 </html>

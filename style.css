@@ -1,0 +1,26 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, ol, li, a {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a common baseline for font styles */
+body {
+    font-family: Lora !important;
+    font-weight: 300 !important;
+    font-size: 18px !important;
+    line-height: 1.5 !important;
+    color: #333 !important;
+    padding-top: 56px;
+}
+
+/* Override default link styles */
+a {
+    text-decoration: none;
+    color: #007bff; /* Blue color for links */
+}
+
+/* Override default list styles */
+ul, ol {
+    list-style: none;
+}
