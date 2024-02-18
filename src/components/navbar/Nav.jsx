@@ -75,20 +75,25 @@ function Nav() {
               </li>
             </ul>
             <div className="d-flex">
-              <a href="#">
-                <img className="social-spacing" src={git} alt="github-account"/>
+              <a href="https://github.com/chokovel">
+                <img
+                  className="social-spacing"
+                  src={git}
+                  alt="github-account"
+                />
               </a>
-              <a href="#">
-                <img className="social-spacing" src={linkedin} alt="linkedin"/>
+              <a href="https://www.linkedin.com/in/faithalugbue/">
+                <img className="social-spacing" src={linkedin} alt="linkedin" />
               </a>
-              <a href="#">
-                <img className="social-spacing" src={facebook} alt="facebook"/>
+              <a href="https://facebook.com/alugbuefaith">
+                <img className="social-spacing" src={facebook} alt="facebook" />
               </a>
-              <a href="#">
-                <img className="social-spacing" src={x} alt="twitter"/>
+              <a href="http://twitter.com/FaithAlugbue">
+                <img className="social-spacing" src={x} alt="twitter" />
               </a>
-              <a href="#">
-                <img className="social-spacing" src={instagram} alt="instagram"/>
+              <a href="http://instagram.com/faithalugbue">
+                <img className="social-spacing" src={instagram} alt="instagram"
+                />
               </a>
             </div>
           </div>
