@@ -71,23 +71,43 @@ function Nav() {
               </li>
             </ul>
             <div className="d-flex">
-              <a href="https://github.com/chokovel">
+              <a
+                href="https://github.com/chokovel"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img
                   className="social-spacing"
                   src={git}
                   alt="github-account"
                 />
               </a>
-              <a href="https://www.linkedin.com/in/faithalugbue/">
+              <a
+                href="https://www.linkedin.com/in/faithalugbue/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img className="social-spacing" src={linkedin} alt="linkedin" />
               </a>
-              <a href="https://facebook.com/alugbuefaith">
+              <a
+                href="https://facebook.com/alugbuefaith"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img className="social-spacing" src={facebook} alt="facebook" />
               </a>
-              <a href="http://twitter.com/FaithAlugbue">
+              <a
+                href="http://twitter.com/FaithAlugbue"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img className="social-spacing" src={x} alt="twitter" />
               </a>
-              <a href="http://instagram.com/faithalugbue">
+              <a
+                href="http://instagram.com/faithalugbue"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img
                   className="social-spacing"
                   src={instagram}

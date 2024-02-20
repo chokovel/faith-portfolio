@@ -1,5 +1,7 @@
 import React from 'react'
 import './hero.css'
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import Button from '../custom/Button';
 import Nav from '../navbar/Nav'
 import heroBg from "../../assets/pinkotab-bg.jpg";
 import FaithAlugbue from "../../assets/faith-alugbue.png";
@@ -23,9 +25,10 @@ function Hero() {
             empowering training. Welcome to a visionary journey where
             development meets creativity and education.
           </p>
-          <button className="btn btn-large btn-info text-white">
-            Contact Me
-          </button>
+          <Button
+            label="Contact Me"
+            href="https://www.linkedin.com/in/faithalugbue/"
+          />
         </div>
         <div className="hero-image">
           {/* <img src={FaithAlugbue} alt="Alugbue-Faith" /> */}
