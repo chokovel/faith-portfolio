@@ -24,3 +24,7 @@ a {
 ul, ol {
     list-style: none;
 }
+.title{
+    text-align: center;
+    color: #B92964;
+}

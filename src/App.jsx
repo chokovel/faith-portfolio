@@ -1,7 +1,7 @@
 import React from 'react'
 import Hero from './components/hero/Hero'
 import About from './components/about/About'
-import Services from './components/services/Services'
+import Skills from "./components/skills/Skills";
 import Projects from './components/projects/Projects'
 import Clientel from './components/clients/Clientel'
 import News from './components/news/News'
@@ -12,8 +12,8 @@ function App() {
   return (
     <>
       <Hero/>
-      <Services/>
       <About/>
+      <Skills/>
       <Projects/>
       <Clientel/>
       <News/>

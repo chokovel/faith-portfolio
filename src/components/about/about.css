@@ -1,0 +1,25 @@
+.about-section {
+  background-image: url(../../assets/pinkotab-bg.jpg);
+  padding-top: 6rem;
+  padding-bottom: 3rem;
+}
+
+.about-summary {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: antiquewhite;
+  width: 70%;
+  margin: 0 auto;
+  font-size: large;
+}
+
+
+@media only screen and (max-width: 767px) {
+.about-summary{
+    width: 100%;
+    padding: 30px;
+}
+
+}

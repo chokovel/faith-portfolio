@@ -1,9 +1,7 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import "./button.css";
-import { Link } from "react-router-dom";
 
-const Button = ({label, to, href}) => {
+const Button = ({ label, to, href }) => {
   return (
     <a
       className="custom-button"
@@ -15,10 +13,7 @@ const Button = ({label, to, href}) => {
       {label}
     </a>
   );
-}
+};
 
-Button.propTypes = {
-
-}
 
 export default Button

@@ -1,0 +1,11 @@
+.card-middle{
+    background-color: #FBA9D3 !important;
+}
+
+
+@media only screen and (max-width: 767px) {
+    .skill{
+        display: flex;
+        flex-direction: column;
+    }
+}
