@@ -1,0 +1,41 @@
+.news-section {
+  display: flex;
+  overflow-x: scroll;
+  padding: 20px 0;
+  flex: 0 0 600px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.card{
+  width: 80%;
+  border: none !important;
+  margin: 10px;
+}
+
+.card-body{
+  padding: 15px 0 !important;
+}
+
+.news-div img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 767px) {
+    .card{
+    padding: 0;
+}
+.news-section {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 0 auto;
+}
+.news-div{
+  width: 100%;
+  padding: 0;
+}
+    
+}

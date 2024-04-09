@@ -9,7 +9,7 @@ const About = () => {
     <section className="about-section">
       {/* Profile Summary */}
       <article className="about-summary justify-content-center">
-        <h2>About Me</h2>
+        <h2><em> About Me</em></h2>
         <p>
           I am a versatile and results-driven Full Stack Developer with over
           three years of experience, specializing in both PHP/Laravel Backend

@@ -1,6 +1,7 @@
 import React from 'react'
 import './nav.css'
-import FaithLogo from "../../assets/Faith-Alugbue-Logo.png";
+// import FaithLogo from "../../assets/Faith-Alugbue-Logo.png";
+import FaithLogo from "../../assets/faithlogoN.png";
 import facebook from "../../assets/facebook.png";
 import instagram from "../../assets/instagram.png";
 import x from "../../assets/x.webp";

@@ -6,7 +6,7 @@ import Nav from '../navbar/Nav'
 function Hero() {
   return (
     <>
-      <Nav />
+      <Nav/>
       <section className="hero-section">
         <section className="hero-text">
           <p className="hero-tag mb-0">Hello,</p>
@@ -15,8 +15,8 @@ function Hero() {
           </h1>
           <p className="hero-title-description pb-3">
             I'm a seasoned Software Developer, Digital Marketer, and Web
-            Development Instructor, I bring over three years of expertise to the
-            table. Welcome to a visionary space where development seamlessly
+            Development Instructor, with over three years of expertise. 
+            Welcome to a visionary space where development seamlessly
             integrates with creativity and education.
           </p>
           <Button

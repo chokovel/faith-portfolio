@@ -1,0 +1,35 @@
+.contact-sec{
+    background-color: #2a2a32;
+}
+.contact-container{
+    width: 80%;
+    margin: 0 auto;
+}
+.contact-details{
+    /* display: flex; */
+     /* width: 80%;
+    margin: 0 auto; */
+}
+p .contact-link {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 10px;
+}
+.svg-inline--fa {
+    color: #fff !important;
+}
+legend{
+    color: #fff;
+}
+.form-label {
+    color: #fff;
+}
+
+@media only screen and (max-width: 767px) {
+    .contact-details{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+   
+    
+}

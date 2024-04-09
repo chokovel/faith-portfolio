@@ -2,10 +2,21 @@
     background-color: #FBA9D3 !important;
 }
 
+.mySkills{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.skill{
+    column-gap: 15px;
+}
 
 @media only screen and (max-width: 767px) {
     .skill{
         display: flex;
         flex-direction: column;
+    }
+    section.card {
+        width: 100%;
     }
 }
